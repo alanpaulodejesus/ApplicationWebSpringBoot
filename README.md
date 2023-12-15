@@ -3,6 +3,11 @@
 Para executar o Projeto é necessário que tenha:
 
 Instalado:
+<<<<<<< HEAD
+=======
+- Java
+- Maven
+>>>>>>> db80fa9484ce90dd452d85085cac0889bd09c9cb
 - Xampp
 - MySQL
 
@@ -19,10 +24,13 @@ Para acessar aplicação web:
 
 - http://localhost:8080/agendaShow
 
+<<<<<<< HEAD
 Para acessar o Swagger dos endpoints da aplicação:
 
 - http://localhost:8080/swagger-ui.html
 
+=======
+>>>>>>> db80fa9484ce90dd452d85085cac0889bd09c9cb
 # Medium
 
 Aqui neste [Link](https://medium.com/@alanpaulodejesus/inicializando-e-criando-uma-aplica%C3%A7%C3%A3o-web-java-com-spring-boot-62652a4484ad) possui um passo a passo de como foi criado este projeto.
