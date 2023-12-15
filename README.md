@@ -3,6 +3,8 @@
 Para executar o Projeto é necessário que tenha:
 
 Instalado:
+- Java
+- Maven
 - Xampp
 - MySQL
 
