@@ -15,7 +15,7 @@ Para executar o projeto:
    - Password ""
 - Start Spring Boot
 
-Para acessar aplicação:
+Para acessar aplicação web:
 
 - http://localhost:8080/agendaShow
 
