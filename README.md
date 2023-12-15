@@ -27,7 +27,7 @@ Para acessar teste automatizado web com Selenium:
 
 Para acessar o Swagger dos endpoints da aplicação:
 
-- http://localhost:8080/swagger-ui.html (Api em configuração..)
+- http://localhost:8080/swagger-ui.html (Em configuração..)
 
 # Medium
 
