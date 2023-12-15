@@ -21,4 +21,4 @@ Para acessar aplicação web:
 
 # Medium
 
-Neste [Link](https://medium.com/@alanpaulodejesus/inicializando-e-criando-uma-aplica%C3%A7%C3%A3o-web-java-com-spring-boot-62652a4484ad) possui um passo a passo de como foi criado este projeto:
+Aqui neste [Link](https://medium.com/@alanpaulodejesus/inicializando-e-criando-uma-aplica%C3%A7%C3%A3o-web-java-com-spring-boot-62652a4484ad) possui um passo a passo de como foi criado este projeto.
