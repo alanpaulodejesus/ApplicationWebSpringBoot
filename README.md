@@ -21,7 +21,7 @@ Para acessar aplicação web:
 
 - http://localhost:8080/agendaShow
 
-Para acessar teste automatizado web com Selenium:
+Para acessar teste automatizado web com Selenium Webdriver:
 
 - src/test/java/agendaShowEventos/AgendaShowTestWeb.java
 
