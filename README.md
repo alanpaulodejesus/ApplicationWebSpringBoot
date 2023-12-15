@@ -19,10 +19,6 @@ Para acessar aplicação web:
 
 - http://localhost:8080/agendaShow
 
-Para acessar o Swagger dos endpoints da aplicação:
-
-- http://localhost:8080/swagger-ui.html
-
 # Medium
 
 Aqui neste [Link](https://medium.com/@alanpaulodejesus/inicializando-e-criando-uma-aplica%C3%A7%C3%A3o-web-java-com-spring-boot-62652a4484ad) possui um passo a passo de como foi criado este projeto.
