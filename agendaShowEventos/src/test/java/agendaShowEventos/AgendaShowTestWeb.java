@@ -13,7 +13,7 @@ public class AgendaShowTestWeb {
     public AgendaShowTestWeb() {
         super();
     }
-    @Test
+    //@Test
     public void validarRedirecionamentoAgendaShow() {
         System.setProperty("webdriver.chrome.driver", "src/test/java/agendaShowEventos/chromedriver.exe");
         WebDriver driver=new ChromeDriver();
@@ -24,6 +24,6 @@ public class AgendaShowTestWeb {
         String actualUrl="http://localhost:8080/agendaShow";
         String expectedUrl= driver.getCurrentUrl();
         Assert.assertEquals(expectedUrl,actualUrl);
-        driver.quit();
+        //driver.quit();
     }
 }

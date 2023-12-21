@@ -1,0 +1,5 @@
+Executavel:
+
+mvn test -D"cucumber.filter.tags=@smoke"
+
+mvn test -Dtags="@smoke"

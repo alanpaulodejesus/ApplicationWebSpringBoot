@@ -17,16 +17,16 @@
     <h1>Agendamento Show:</h1>
     <h3><a href="/agendas" id="btn-listagem-agenda-show" class="waves-effect waves-light btn"><i class="material-icons left">format_list_bulleted</i>Listagem</a></h3>
     <form class="container" method="post">
-        Nome: <input type="text" value="" name="nome">
+        Nome: <input id="campo_nome" type="text" value="" name="nome">
         <div class="row">
             <div class="input-field col s6">
-                Local: <input type="text" value="" name="local">
+                Local: <input id="campo_local" type="text" value="" name="local">
             </div>
             <div class="input-field col s3">
-                Data: <input type="date" value="" name="data">
+                Data: <input id="campo_data" type="date" value="" name="data">
             </div>
             <div class="input-field col s3">
-                Horário: <input type="text" value="" name="horario">
+                Horário: <input id="campo_hora" type="text" value="" name="horario">
             </div>
         </div>
         <button id="btn-agendar" class="waves-effect waves-light btn" type="submit">Agendar</button>
