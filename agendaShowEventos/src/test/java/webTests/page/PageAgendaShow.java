@@ -1,4 +1,4 @@
-package webTests;
+package webTests.page;
 
 import custom.CampoTexto;
 import custom.Comando;
@@ -7,13 +7,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Wait;
+import webTests.BaseTest;
 
 import static configUrl.Configs.URL_AGENDA_SHOW;
 
-public class PageAgendaShow extends BaseTest{
+public class PageAgendaShow extends BaseTest {
 
     @FindBy(id ="btn-retornar-nova-agenda") private WebElement btnNovaAgenda;
-
     @FindBy(id ="btn-listagem-agenda-show") private WebElement btnListarNovaAgenda;
     @FindBy(id ="btn-agendar") private WebElement btnAgendar;
     @FindBy(id ="campo_nome") private WebElement campoNome;

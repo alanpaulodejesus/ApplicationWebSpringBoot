@@ -3,9 +3,8 @@ Funcionalidade: : Realizar agendamento de show
 
   @smoke
   Cenario: : Realizar agendamento de show com sucesso
-    Dado que eu preencho informação de nome
-    E preencho informação de local
-    E preencho informação de data
-    E preencho informação de hora
-    E aciono comando de agendar
-    Então verifico a tela de listar
+    Dado que existe uma agenda inserida na tabela
+    E acesso a aplicacao
+    E preencho informações de nome, local, data e hora
+    Quando aciono comando de agendar
+    Então é exibido a tela de listar
