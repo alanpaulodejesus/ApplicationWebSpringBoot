@@ -1,29 +1,33 @@
 package webTests.stepDefinitions;
 
 import org.junit.Test;
-import sql.connection.DataBaseConnection;
+import sql.connection.QueryConnection;
 import webTests.page.PageAgendaShow;
 
-import io.cucumber.java.pt.*;
 import org.junit.Before;
+
+import java.sql.ResultSet;
 
 import static webTests.BaseTest.getDriver;
 public class TestAgendaShow {
     PageAgendaShow pageAgendaShow = new PageAgendaShow();
-    DataBaseConnection dataBase = new DataBaseConnection();
     public static String nome;
-    private String sql="SELECT * FROM agenda where codigo ='1'";
+    public static String local;
+    private String sql="SELECT * FROM agenda where codigo ='20'";
     @Before
     public void setUp() throws Exception {
-        getDriver();
-        dataBase.iniciar(sql, "nome");
+        QueryConnection con = new QueryConnection();
+        ResultSet data = con.data("",sql);
+        nome = data.getString("nome");
+        local = data.getString("local");
     }
 
     @Test
     public void preencherAgendamentoDeShow() throws InterruptedException {
+        getDriver();
         pageAgendaShow.clicarNovaAgenda();
-        pageAgendaShow.preencherCampoNome("Agora é: " + nome);
-        pageAgendaShow.preencherCampoLocal("BH");
+        pageAgendaShow.preencherCampoNome("RECUPERADO BANCO: " + nome);
+        pageAgendaShow.preencherCampoLocal("RECUPERADO BANCO: " + local);
         pageAgendaShow.preencherCampoData("19/12/2023");
         pageAgendaShow.preencherCampoHora("11:00");
         pageAgendaShow.clicarAgendar();

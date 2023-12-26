@@ -6,7 +6,6 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Wait;
 import webTests.BaseTest;
 
 import static configUrl.Configs.URL_AGENDA_SHOW;
@@ -39,7 +38,7 @@ public class PageAgendaShow extends BaseTest {
     }
     public void validarUrl(){
         String actualUrl= URL_AGENDA_SHOW;
-        String expectedUrl= driver.getCurrentUrl();
+        String expectedUrl= getDriver().getCurrentUrl();
         Assert.assertEquals(expectedUrl,actualUrl);
     }
 
